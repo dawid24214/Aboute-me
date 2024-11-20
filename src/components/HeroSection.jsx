@@ -1,4 +1,4 @@
-import '../style/_HeroSection.scss.scss';
+import '../style/_HeroSection.scss';
 import React from "react";
 
 export  const HeroSection = () => {
