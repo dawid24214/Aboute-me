@@ -2,7 +2,10 @@ import React from "react";
 import '../style/_Projects.scss';
 
 
+
+
 export const Projects = () =>{
+
 
     const projects = [
         {title:'Project1', description: 'Description of Project 1'},
@@ -11,8 +14,10 @@ export const Projects = () =>{
     ];
 
     return (
+
+
         <div>
-            <section id='projects' className='projects'>
+            <section id='projects' className='projects' data-aos='fade-up'>
                 <h2>Projects</h2>
                 <div className='project-grid'>
                     {projects.map((project, index) =>(

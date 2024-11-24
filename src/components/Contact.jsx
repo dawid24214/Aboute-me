@@ -4,7 +4,7 @@ import '../style/_Contact.scss';
 export const Contact = () =>{
     return (
         <div>
-            <section id='contact' className='contact'>
+            <section id='contact' className='contact' data-aos='zoom-in'>
                 <h2>Contact Me</h2>
                 <p>Feel free to reach out via the form below or my social links!</p>
                 <form className='contact-form'>

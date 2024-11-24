@@ -8,6 +8,12 @@ import {Navbar} from './components/Navbar.jsx'
 import {Portfolio} from './components/Portfolio.jsx'
 import {Projects} from './components/Projects.jsx'
 import './App.css';
+import AOS from 'aos';
+
+AOS.init({
+    duration: 1000,
+    once:true,
+});
 
 
 

@@ -4,11 +4,19 @@ import React from "react";
 export  const HeroSection = () => {
     return (
         <>
-          <div className='hero-section'>
-              <h1>Welcome to My Portfolio</h1>
-              <p>This is  the homepage of my website</p>
-          </div>
-
+          <section className='home'>
+              <div className='hero'>
+                  <h1>Welcome to My My World</h1>
+                  <p>
+                      Hi, I'm <strong>Dawid Grochowski</strong> . A developer passionate about
+                      creating innovative and interactive  web solution .
+                  </p>
+                  <div className='cta-buttons'>
+                      <a href='/about' className='btn'>Learn More</a>
+                      <a href='/portfolio' className='btn'>My work</a>
+                  </div>
+              </div>
+          </section>
         </>
     );
 }
