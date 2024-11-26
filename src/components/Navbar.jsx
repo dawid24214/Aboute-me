@@ -22,6 +22,7 @@ export const Navbar = () => {
                     <li><NavLink to='/projects' activeClassName='active' onClick={toggleMenu}>Projects</NavLink></li>
                     <li><NavLink to='/portfolio' activeClassName='active' onClick={toggleMenu}>Portfolio</NavLink></li>
                     <li><NavLink to='/contact' activeClassName='active' onClick={toggleMenu}>Contact</NavLink></li>
+                    <li><NavLink to='/SnakeGame' activeClassName='active' onClick={toggleMenu}>SnakeGame</NavLink></li>
                 </ul>
             </nav>
 

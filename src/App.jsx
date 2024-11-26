@@ -7,6 +7,7 @@ import {HeroSection} from './components/HeroSection.jsx'
 import {Navbar} from './components/Navbar.jsx'
 import {Portfolio} from './components/Portfolio.jsx'
 import {Projects} from './components/Projects.jsx'
+import {SnakeGame} from './components/SnakeGame.jsx'
 import './App.css';
 import AOS from 'aos';
 
@@ -28,6 +29,7 @@ const App = () => {
                         <Route path='/projects' element={<Projects/>}/>
                         <Route path='/portfolio' element={<Portfolio/>}/>
                         <Route path='/contact' element={<Contact/>}/>
+                        <Route path='/snakegame' element={<SnakeGame/>}/>
                     </Routes>
                 </div>
              </Router>
@@ -37,9 +39,7 @@ const App = () => {
 
 
 
-const rootElement = document.getElementById('root');
-const root = ReactDom.createRoot(rootElement);
-root.render(<App/>);
+
 export default App
 
 

@@ -1,5 +1,6 @@
 import React from "react";
 import '../style/_AboutMe.scss';
+import {NavLink} from "react-router-dom";
 export const AboutMe = () =>{
     return (
         <div>
@@ -29,7 +30,13 @@ export const AboutMe = () =>{
                         </p>
                     </div>
                 </div>
+
+                <div className='game-section'>
+                    <h2>Play My Snake Game!</h2>
+                    <a></a>
+                </div>
             </section>
         </div>
+
     );
 }
