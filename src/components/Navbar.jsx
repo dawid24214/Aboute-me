@@ -10,7 +10,9 @@ export const Navbar = () => {
     return(
         <>
             <nav className='navbar'>
-                <div className='logo'>Dawid Grochowski</div>
+                <div className='logo'>
+                    <img src='/public/Logo.jpg' alt='Dawid Grochowski'/>
+                </div>
                 <div className={`hamburger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
                     <span></span>
                     <span></span>
