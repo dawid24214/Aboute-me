@@ -5,10 +5,10 @@
 
   .game-board {
     display: grid;
-    grid-template-rows: repeat(20, 20px);
-    grid-template-columns: repeat(20, 20px);
-    width: 400px;
-    height: 400px;
+    grid-template-rows: repeat(20, 10px);
+    grid-template-columns: repeat(20, 10px);
+    width: 200px;
+    height: 200px;
     background-color: #001122;
     border: 2px solid #00aaff;
     position: relative;
@@ -29,4 +29,19 @@
 
 h3 {
   color: #ff3333;
+}
+.start-button{
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #00aaff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  &:hover{
+    background-color: #0088cc;
+
+  }
 }
