@@ -31,10 +31,6 @@ export const AboutMe = () =>{
                     </div>
                 </div>
 
-                <div className='game-section'>
-                    <h2>Play My Snake Game!</h2>
-                    <a></a>
-                </div>
             </section>
         </div>
 

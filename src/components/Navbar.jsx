@@ -19,12 +19,24 @@ export const Navbar = () => {
                     <span></span>
                 </div>
                 <ul className={`nav-links ${isOpen ? "open" : ""}`}>
-                    <li><NavLink to='/' activeClassName='active' onClick={toggleMenu}>Home</NavLink></li>
-                    <li><NavLink to='/about' activeClassName='active' onClick={toggleMenu}>About me</NavLink></li>
-                    <li><NavLink to='/projects' activeClassName='active' onClick={toggleMenu}>Projects</NavLink></li>
-                    <li><NavLink to='/portfolio' activeClassName='active' onClick={toggleMenu}>Portfolio</NavLink></li>
-                    <li><NavLink to='/contact' activeClassName='active' onClick={toggleMenu}>Contact</NavLink></li>
-                    <li><NavLink to='/SnakeGame' activeClassName='active' onClick={toggleMenu}>SnakeGame</NavLink></li>
+                    <li><NavLink to='/'
+                                 className={({isActive}) => (isActive ? 'active' : '')}
+                                 onClick={toggleMenu}>Home</NavLink></li>
+                    <li><NavLink to='/about'
+                                 className={({isActive}) => (isActive ? 'active' : '')}
+                                 onClick={toggleMenu}>About me</NavLink></li>
+                    <li><NavLink to='/projects'
+                                 className={({isActive}) => (isActive ? 'active' : '')}
+                                 onClick={toggleMenu}>Projects</NavLink></li>
+                    <li><NavLink to='/portfolio'
+                                 className={({isActive}) => (isActive ? 'active' : '')}
+                                 onClick={toggleMenu}>Portfolio</NavLink></li>
+                    <li><NavLink to='/contact'
+                                 className={({isActive}) => (isActive ? 'active' : '')}
+                                 onClick={toggleMenu}>Contact</NavLink></li>
+                    <li><NavLink to='/SnakeGame'
+                                 className={({isActive}) => (isActive ? 'active' : '')}
+                                 onClick={toggleMenu}>SnakeGame</NavLink></li>
                 </ul>
             </nav>
 
